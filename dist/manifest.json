@@ -1,0 +1,20 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#5a9afd",
+	"name": "Grow With Aryan",
+	"short_name": "GwA",
+	"display": "fullscreen",
+	"start_url": "/app",
+	"icons": [
+		{
+			"src": "gwa-192.jpg",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "gwa-512.jpg",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
