@@ -50,6 +50,7 @@
       "ws": ">=3.3.1"
    },
    "dependencies": {
+      "@beyonk/svelte-carousel": "^2.4.0",
       "firebase": "^7.14.1",
       "sveltefire": "^0.1.4"
    }

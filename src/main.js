@@ -7,6 +7,17 @@ import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/performance';
 import 'firebase/analytics';
+import {writable} from 'svelte/store';
+
+let selected="dash";
+
+let socialposts=[
+    {title:'social_post-title', description: 'social post description', src:'image.jpg'},
+    {title:'social_post-title', description: 'social post description', src:'image.jpg'},
+    {title:'social_post-title', description: 'social post description', src:'image.jpg'},
+    {title:'social_post-title', description: 'social post description', src:'image.jpg'},
+    {title:'social_post-title', description: 'social post description', src:'image.jpg'}
+]
 
 const firebaseConfig = {
 apiKey: "AIzaSyAws8G8ubo9wDxBURCMD2loSXW3ZSxccis",
@@ -22,6 +33,9 @@ measurementId: "G-GFM7H0X3YL"
 firebase.initializeApp(firebaseConfig);
 
 export {firebase};
+
+export const selectedstore = writable(selected);
+export const socialstore = writable(socialposts);
 
 const app = new App({
     target: document.body

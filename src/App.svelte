@@ -11,7 +11,6 @@
 
 <FirebaseApp {firebase}>
 
-    <!-- 2. 😀 Get the current user -->
     <User let:user let:auth log>
 
         <Platform />
@@ -23,3 +22,5 @@
     </User>
 
 </FirebaseApp>
+
+<!-- <Platform /> -->
