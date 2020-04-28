@@ -1,15 +1,16 @@
 <script>
-  import Website from './website.svelte';
-  import Platform from './platform.svelte';
-  import {firebase} from './main.js';
-  import { FirebaseApp, User } from 'sveltefire';
+  import Website from "./website.svelte";
+  import Platform from "./platform.svelte";
+  import { firebase } from "./main.js";
+  import { FirebaseApp, User } from "sveltefire";
+  import { fade } from "svelte/transition";
 </script>
 
 <style lang="text/postcss">
 
 </style>
 
-<FirebaseApp {firebase}>
+<!-- <FirebaseApp {firebase}>
 
     <User let:user let:auth log>
 
@@ -21,6 +22,6 @@
 
     </User>
 
-</FirebaseApp>
+</FirebaseApp> -->
 
-<!-- <Platform /> -->
+<Platform />

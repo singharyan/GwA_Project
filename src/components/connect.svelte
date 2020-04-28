@@ -39,6 +39,8 @@
 
 <div
   id="connect"
-  class="calendly-inline-widget block overflow-scroll rounded-xl hidescroll"
+  class="absolute z-10 calendly-inline-widget block overflow-scroll rounded-xl
+  hidescroll"
   data-url="https://calendly.com/aryansingh/30min-meeting"
-  style="min-width:320px; height:90vh;" />
+  style="min-width:320px; height:90vh; background:url(loading.gif) center center
+  no-repeat;" />
