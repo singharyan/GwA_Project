@@ -47,7 +47,7 @@
       "svelte-preprocess": "^2.16.0",
       "svelte-preprocess-postcss": "^1.1.1",
       "tailwindcss": "^1.3.5",
-      "ws": "^7.2.3"
+      "ws": "^7.4.6"
    },
    "dependencies": {
       "@beyonk/svelte-carousel": "^2.4.0",
